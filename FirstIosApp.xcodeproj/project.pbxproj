@@ -42,6 +42,7 @@
 				67E270E71D99608B00AC94DF /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		67E270E71D99608B00AC94DF /* Products */ = {
 			isa = PBXGroup;

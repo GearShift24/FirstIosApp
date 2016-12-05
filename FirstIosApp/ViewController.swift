@@ -9,17 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+@IBOutlet weak var mySlider: UISlider!
     override func viewDidLoad() {
-        super.viewDidLoad()
+            super.viewDidLoad()
+        
+        mySlider.value = 0.0
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
-
+    
 }
 
